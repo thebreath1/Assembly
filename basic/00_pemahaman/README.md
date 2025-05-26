@@ -2,7 +2,7 @@
 
 ## Representasi kode mesin
 
-Bahasa rakitan menerjemahkan sebuah instruksu rakitan menjadi instruksi mesin, umumnya mekanisme penerjemahan ini bersifat 1-1, karena dapat disebukan pula bahwa setiap instruksi dalam bahasa rakitan merupakan representasi dari instruksi kode mesin.
+Bahasa rakitan menerjemahkan sebuah instruksi rakitan menjadi instruksi mesin, umumnya mekanisme penerjemahan ini bersifat 1-1, karena dapat disebukan pula bahwa setiap instruksi dalam bahasa rakitan merupakan representasi dari instruksi kode mesin.
 
 Sebagai contoh, berikut adalah instruksi yang digunakan pada prosessor x86 untuk memindahkan nilai 97 sebesar 8-bit ke dalam register prosesor AL. Kode biner atas instruksi pemindahan adalah ``10110`` diikuti dengan 3-bit pengenal atas register yang akan digunakan. Pengenal atas register AL dalam hal ini adalah ``000``. kemudian, nilai ``97`` dalam kode biner adalah ``01100001``, sehingga kode mesin yang digunakan untuk memindahkannya adalah dibawah ini :
 ```
